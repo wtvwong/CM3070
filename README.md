@@ -8,7 +8,7 @@
 
 <br>
 
-## About The Project
+## About the project
 
 This codebase is part of the **CM3070 Final Project** submission for the __University of London BSc Computer Science__ degree.
 
@@ -38,6 +38,7 @@ npx expo install @react-navigation/native @react-navigation/native-stack
 npx expo install react-native-screens react-native-safe-area-context
 npx expo install expo-location expo-notifications
 npx expo install @react-native-async-storage/async-storage
+```
 
 Other Requirements:
 
@@ -45,4 +46,20 @@ Other Requirements:
 2. Expo Go installed on a physical iOS or Android device, or an Android/iOS simulator
 3. A device or emulator with location services enabled to test the Alerts screen
 
-## Pac
+## Setup instructions
+
+1. Clone this repository:
+git clone https://github.com/wtvwong/CM3070.git
+cd CM3070
+
+2. Install dependencies:
+npm install
+npx expo install @react-navigation/native @react-navigation/native-stack
+npx expo install react-native-screens react-native-safe-area-context
+npx expo install expo-location expo-notifications
+npx expo install @react-native-async-storage/async-storage
+
+3. Start the Expo development server:
+npm start
+
+4. Scan the QR code with the Expo Go app on your device, or launch the iOS Simulator or Android Emulator.
