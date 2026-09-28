@@ -50,14 +50,16 @@ Other Requirements:
 
 1. Clone this repository:
 git clone https://github.com/wtvwong/CM3070.git
-cd CM3070
+<br>cd CM3070
 
 2. Install dependencies:
+```bash
 npm install
 npx expo install @react-navigation/native @react-navigation/native-stack
 npx expo install react-native-screens react-native-safe-area-context
 npx expo install expo-location expo-notifications
 npx expo install @react-native-async-storage/async-storage
+```
 
 3. Start the Expo development server:
 npm start
