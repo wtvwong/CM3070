@@ -22,11 +22,11 @@ The app is built with **React Native** and **Expo**, allowing a single JavaScrip
 
 The following is the directory structure of the project along with some explanations of each file.
 
-App.js # Main app entry point: all screens, navigation, and styles
-notificationsHelper.js # Defensive wrapper around expo-notifications
-README.md # This file
-package.json # Project dependencies and scripts
-app.json # Expo project configuration
+- App.js # Main app entry point: all screens, navigation, and styles
+- notificationsHelper.js # Defensive wrapper around expo-notifications
+- README.md # This file
+- package.json # Project dependencies and scripts
+- app.json # Expo project configuration
 
 ## Packages required for this project
 
